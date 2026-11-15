@@ -39,6 +39,10 @@ Reports are reconstructed from dated PR, commit, and documented test evidence, w
 - **2026-10-09** — [R2-3PO](2026-10-09/TPS-2026-10-09-R2.md)
 - **2026-10-08** — [R2-3PO](2026-10-08/TPS-2026-10-08-R2.md)
 
+## History provenance
+
+- [R2 commit-history ancestry and pre-October-8 evidence limits](docs/R2-HISTORY-PROVENANCE.md)
+
 ## Filing standard
 
 - One report per project per documented reporting date; group closely related activity within one date.
