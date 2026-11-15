@@ -3,9 +3,10 @@
 **Parent company:** HydraGames  
 **Reporting company:** Xylin48  
 **Filed by:** Z3R0 C001  
-**Archive coverage:** Historical development checkpoints, arranged newest to oldest.
+**Archive coverage:** Historical development checkpoints, arranged newest to oldest.  
+**Report count:** 25 reports across 24 dates.
 
-These are dated operational reports derived from GitHub evidence. A PR creation/update date does not necessarily date every individual change in its cumulative description. Commits and passing CI demonstrate version-specific development activity, not automatic release readiness, target-hardware validation or deployment.
+Reports are reconstructed from dated PR, commit, and documented test evidence, with source references in each file. A PR creation/update timestamp does **not** date every implementation detail in its cumulative summary. GitHub CI on one revision is not proof of production deployment or target-hardware acceptance.
 
 ## Report index
 
@@ -28,11 +29,17 @@ These are dated operational reports derived from GitHub evidence. A PR creation/
 - **2026-10-19** — [R2-3PO](2026-10-19/TPS-2026-10-19-R2.md)
 - **2026-10-18** — [R2-3PO](2026-10-18/TPS-2026-10-18-R2.md)
 - **2026-10-17** — [R2-3PO](2026-10-17/TPS-2026-10-17-R2.md)
+- **2026-10-16** — [R2-3PO](2026-10-16/TPS-2026-10-16-R2.md)
+- **2026-10-15** — [R2-3PO](2026-10-15/TPS-2026-10-15-R2.md)
+- **2026-10-14** — [R2-3PO](2026-10-14/TPS-2026-10-14-R2.md)
+- **2026-10-13** — [R2-3PO](2026-10-13/TPS-2026-10-13-R2.md)
+- **2026-10-12** — [R2-3PO](2026-10-12/TPS-2026-10-12-R2.md)
 
-## Filing standards
+## Filing standard
 
-- One report per dated project checkpoint. Multiple reports per date are permitted for distinct projects.
-- Preserve historical wording, identify cited PRs, commits and test runs, and separate reported claims from independently verified outcomes.
-- No invented activity on dates for which no evidence has been found.
-- No secret tokens, personal data, host-private paths or confidential records in this public repository.
-- Never overwrite R2-3PO or website development history merely to file a TPS report.
+- One report per project per documented reporting date; group closely related activity within one date.
+- No fabricated report for an undocumented date.
+- Separate proposed, passed-CI, integrated, deployed, and target-host-tested states.
+- Do not equate closed, superseded or draft PR status with a verified production release.
+- Public reports must not contain secrets, access tokens or sensitive personnel and machine information.
+- Keep R2 and website source repositories unchanged by administrative reporting.
